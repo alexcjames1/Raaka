@@ -4,7 +4,7 @@ import userConvenience from './images/user-convenience.jpg';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
-export default class Owners extends Component {
+export default class ConvenienceIsPriority extends Component {
     render() {
         return(
             <div className="convenienceIsPriority">

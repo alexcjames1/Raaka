@@ -12,7 +12,6 @@ function App() {
   return (
    <Router>
         <Route exact path="/" component={Landing} />
-        <Route path="/driver" component={Driver} />
     </Router>
   );
 }

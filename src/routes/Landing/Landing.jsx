@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper, RakkaHero, Products, Owners, Ingredients, Newsletter, FinalThingsToClick, Footer} from '../../components';
+import {Heading, Header, AppWrapper, RaakaHero, Products, Owners, Ingredients, Newsletter, Footer} from '../../components';
 
 export default class Landing extends Component {
     render() {
         return (
           <AppWrapper>
-            <RakkaHero />
+            <RaakaHero />
             <Owners/>
             <Products />
             <Ingredients />
             <Newsletter />
-            <FinalThingsToClick />
           </AppWrapper>
         );
     }
